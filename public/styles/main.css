@@ -1,0 +1,70 @@
+:root{
+    font-size: 60%;
+    /*9,6px
+    1.7rem = 16px
+    2.5rem = 24px
+    */
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.7rem;
+}
+ul{
+    list-style: none;
+    padding-left: 1rem;
+}
+#home{
+    width: 100%;
+}
+
+.logo-container img{
+    width: 12rem;
+    height: 6rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+.logo-container p{
+    text-align: center;
+}
+.logo-container h2{
+    display: block;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    font-size: 1.7rem;
+    padding: 1.2rem 0.5rem;
+}
+.logo-container h3, ul, li{
+    display: block;
+    margin: 0 auto;
+    padding: 0.6rem;
+}
+.logo-container ul{
+    font-size: 1.2rem;
+}
+label{
+    display: block;
+    margin: 2rem 0 0.5rem 0;
+}
+input, select{
+    padding: 0.5rem;
+    display: block;
+    width: 50rem;
+}
+button{
+    padding: 1.2rem;
+}
+textarea{
+    padding: 0.5rem;
+    width: 50rem;
+    height: 40rem;
+}
+
