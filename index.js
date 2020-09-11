@@ -10,6 +10,7 @@ const dbConnection = sqlite.open(path.resolve(__dirname, 'banco.sqlite'), {
   Promise
 });
 
+const port = process.env.PORT || 3000
 
 /*TESTAR PARA VERSÃO MAIS NOVA:
 
@@ -127,7 +128,7 @@ app.post('/admin/vagas/nova', async(req, res) =>{
 init()
 
 
-app.listen(3000, (err) =>{
+app.listen(port, (err) =>{
     if(err){
         console.log('Não foi possível iniciar o servidor do Jobify')
     }else{
