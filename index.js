@@ -12,6 +12,15 @@ const dbConnection = sqlite.open(path.resolve(__dirname, 'banco.sqlite'), {
 
 const port = process.env.PORT || 3000
 
+
+app.use('/admin', (req, res, next) => {
+    if(req.hostname === 'localhost'){
+        next()
+    }else{
+        res.send('Not allowed')
+    }
+})
+
 /*TESTAR PARA VERSÃO MAIS NOVA:
 
 client.setProvider(
