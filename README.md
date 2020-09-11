@@ -1,6 +1,4 @@
-<div align="center" width=50%>
-  <img src=public/images/logo.png> 
-</div>
+<img align="right" width="10" height="10" src=public/images/logo.png> 
 
 <h1 align="center">
 </h1>
