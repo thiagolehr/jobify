@@ -1,4 +1,4 @@
-<img align="right" width="10" height="10" src=public/images/logo.png> 
+<img align="center" width="50" src=public/images/logo.png> 
 
 <h1 align="center">
 </h1>
