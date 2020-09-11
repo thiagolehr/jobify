@@ -1,4 +1,4 @@
-<div align=”center”>![Jobify Logo](public/images/logo.png)</div>
+<div align=”center”><img src=public/images/logo.png></div>
 
 <h1 align="center">
 </h1>
