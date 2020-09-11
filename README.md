@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=public/images/logo.png> <!-- .element height="50%" width="50%" -->
+  <img src=public/images/logo.png =250x> 
 </div>
 
 <h1 align="center">
